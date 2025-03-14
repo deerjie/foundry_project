@@ -17,5 +17,7 @@ contract ContractBTest is Test {
     function testRevert_Subtract43() public {
         vm.expectRevert();
         testNumber -= 43;
+
+        
     }
 }
