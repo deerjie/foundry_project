@@ -1,0 +1,13 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+# 做路径映射
+remappings = [
+	"@chainlink/contract/=lib/chainlink-brownie-contracts/contracts/",
+	"foundry-devops/=lib/foundry-devops/",
+]
+# 允许foundry在直接运行在本地环境
+ffi = true
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

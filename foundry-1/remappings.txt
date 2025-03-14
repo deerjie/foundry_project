@@ -1,0 +1,4 @@
+@chainlink/contract/=lib/chainlink-brownie-contracts/contracts/
+foundry-devops/=lib/foundry-devops/
+chainlink-brownie-contracts/=lib/chainlink-brownie-contracts/
+forge-std/=lib/forge-std/src/
